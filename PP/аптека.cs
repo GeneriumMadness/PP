@@ -16,5 +16,12 @@ namespace PP
         {
             InitializeComponent();
         }
+
+        private void аптека_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "database1DataSet.аптека". При необходимости она может быть перемещена или удалена.
+            this.аптекаTableAdapter.Fill(this.database1DataSet.аптека);
+            dataGridView1.Columns[0].Visible = false;
+        }
     }
 }

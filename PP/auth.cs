@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace PP
 {
-    public partial class auth : MaterialForm
+    public partial class auth : Form
     {
         public auth()
         {

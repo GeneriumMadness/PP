@@ -62,7 +62,6 @@ namespace PP
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(179, 32);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "RVI13728";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox2
@@ -72,7 +71,6 @@ namespace PP
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(179, 32);
             this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "********";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // auth
