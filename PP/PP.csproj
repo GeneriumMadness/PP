@@ -75,6 +75,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Database1DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Database1DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +97,12 @@
     </Compile>
     <Compile Include="main.Designer.cs">
       <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pcsale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pcsale.Designer.cs">
+      <DependentUpon>pcsale.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -131,6 +142,9 @@
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="pcsale.resx">
+      <DependentUpon>pcsale.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -139,6 +153,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="аптека.resx">
       <DependentUpon>аптека.cs</DependentUpon>
@@ -163,6 +178,17 @@
     <None Include="Database1DataSet.xss">
       <DependentUpon>Database1DataSet.xsd</DependentUpon>
     </None>
+    <None Include="Database1DataSet1.xsc">
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Database1DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database1DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database1DataSet1.xss">
+      <DependentUpon>Database1DataSet1.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -185,6 +211,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\CTF2.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

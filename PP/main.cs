@@ -73,5 +73,11 @@ namespace PP
         {
             MessageBox.Show("Произошла непредвиденная ошибка", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            pcsale form = new pcsale();
+            form.Show();
+        }
     }
 }
